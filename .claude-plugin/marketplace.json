@@ -1,0 +1,40 @@
+{
+  "name": "aline-community",
+  "owner": {
+    "name": "Aline",
+    "url": "https://aline.co"
+  },
+  "metadata": {
+    "description": "Agent skills for legal teams, published by Aline."
+  },
+  "plugins": [
+    {
+      "name": "aline-legal",
+      "source": "./",
+      "description": "Contract review, drafting and research skills for in-house legal teams.",
+      "author": {
+        "name": "Aline"
+      },
+      "license": "Apache-2.0",
+      "strict": false,
+      "skills": [
+        "./skills/commercial-contract-review",
+        "./skills/compare-contract-versions",
+        "./skills/contract-risk-summary",
+        "./skills/data-processing-agreement-dpa-review",
+        "./skills/draft-board-consent",
+        "./skills/draft-company-policy",
+        "./skills/executive-approval-email",
+        "./skills/explain-legal-concept",
+        "./skills/improve-communication",
+        "./skills/lease-abstract",
+        "./skills/legal-alert-review",
+        "./skills/multi-document-deal-analysis",
+        "./skills/nda-review",
+        "./skills/privacy-policy-review",
+        "./skills/saas-terms-review",
+        "./skills/vendor-agreement-review"
+      ]
+    }
+  ]
+}

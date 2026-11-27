@@ -1,0 +1,17 @@
+{
+  "name": "aline-community",
+  "private": true,
+  "description": "Agent skills for legal teams, published by Aline",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/validate.mjs && node scripts/build.mjs --check"
+  },
+  "devDependencies": {
+    "yaml": "2.9.1"
+  }
+}

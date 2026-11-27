@@ -1,0 +1,23 @@
+name: Propose a skill
+description: Suggest a new skill before you write it.
+labels: ["new skill"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      placeholder: lease-renewal-review
+    validations:
+      required: true
+  - type: textarea
+    id: job
+    attributes:
+      label: What job does it do?
+      description: Who uses it, what they attach, and what they get back.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: A short example of the output. Use made-up documents only.
