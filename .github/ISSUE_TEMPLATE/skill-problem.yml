@@ -1,0 +1,26 @@
+name: Report a problem with a skill
+description: A skill gave a wrong, incomplete or unsafe answer.
+labels: ["bug"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      placeholder: nda-review
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong?
+      description: What you expected and what you got. Remove client names and confidential details.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did you run it?
+      options:
+        - Aline
+        - Claude Code
+        - Another agent
